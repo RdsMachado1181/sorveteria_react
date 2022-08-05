@@ -1,0 +1,79 @@
+.Rodape{
+  width: 100%;
+  height: 40vh;
+    background-color: black;
+    color: white;
+}
+.Rodape .Secao-Rodape{
+  width: 100%;
+  height: 100%;
+   display:flex ; 
+   flex-direction: column;
+padding-bottom: 40px;
+
+}
+.Rodape .Secao-Rodape .Secao-dupla-Rodape{
+    display:flex ; 
+   flex-direction: row;
+   justify-content: space-around;
+}
+.Rodape .Secao-Rodape #img01{
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+.Rodape .Secao-Rodape  img {
+   width: 100px;
+  height: 60px;
+ 
+}
+ 
+.Rodape .Secao-Rodape  .caixa{
+    display:flex ; 
+   flex-direction: column; 
+   padding-left: 15px;
+   padding-top: 40px;
+}
+.Rodape .Secao-Rodape  > p{
+display: inline-block;
+text-align: center;
+
+
+}
+
+@media (max-width:450px) {
+  .Rodape{
+    width: 100%;
+    height: 85vh;
+  }
+  .Rodape .Secao-Rodape {
+display: flex;
+flex-wrap: wrap;
+  }
+  .Rodape .Secao-Rodape  .Secao-dupla-Rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+ 
+
+}
+@media ( min-width: 451px   ) and ( max-width: 768px  ) {
+  .Rodape{
+    width: 100%;
+    height: 85vh;
+  }
+  .Rodape .Secao-Rodape {
+display: flex;
+flex-wrap: wrap;
+  }
+  .Rodape .Secao-Rodape  .Secao-dupla-Rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+}

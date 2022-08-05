@@ -1,0 +1,49 @@
+.container-PaginaSobre {
+    width: 100vw;
+    height: 100vh;
+    border: 1px soli red;
+}
+.PaginaSobre{
+    width: 100%;
+    height: 120vh;
+    background-image: url(../../assets/assets/banner-sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.PaginaSobre  h1 {
+    color: white;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 4px gray;
+     
+}
+.Pagina-SobreNos{
+    width: 100vw;
+    height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container-Pagin-Sobre{
+    width: 100vw;
+    height: 90vh; 
+    display: flex;  
+    flex-direction: row;
+}
+
+.container-Pagin-Sobre .imgagem-Sobre{
+    width: 50vw;
+    height: 100%; 
+}
+.container-Pagin-Sobre .imgagem-Sobre img{
+    width: 100%;
+    height: 100%;   
+}

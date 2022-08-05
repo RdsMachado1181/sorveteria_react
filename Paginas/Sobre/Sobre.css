@@ -1,0 +1,53 @@
+.Sobre{
+ width: 100%;
+ height: 80vh;
+ display: flex;
+ flex-direction: row;
+}
+  .Sobre .sobre-texto{    
+  width: 50%;
+  height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+ .Sobre .sobre-foto{
+  width: 50%;
+  height: 100%;
+  background-image: url(../../assets/assets/banner-sobre.png);
+}
+
+@media ( max-width: 450px  ) {
+  .Sobre{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+   }
+   .Sobre .sobre-texto{    
+    width: 100%;
+    height: 30vh;
+   }
+   .Sobre .sobre-foto{
+    width: 100%;
+    height: 30vh;
+   }
+}
+@media ( min-width: 451px   ) and ( max-width: 768px  ) {
+  .Sobre{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   }
+   .Sobre .sobre-texto{    
+    width: 100%;
+    height: 40vh;
+   }
+   .Sobre .sobre-foto{
+    width: 100%;
+    height: 40vh;
+   }
+
+}

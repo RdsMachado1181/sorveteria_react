@@ -1,0 +1,92 @@
+.Nossos-Sabores {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Sabores-sorvete{
+    width: 100vw;
+    height: 100vh; 
+    background-image: url(../../assets/assets/banner-sabores.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Sabores-sorvete > h1 {
+    color: white;
+    font-size: 80px;
+    text-shadow: 4px 4px gray;
+}
+.Sabores-Sorvete{
+     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container-caixa{
+    width: 70vw;
+    height: 100%; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.caixa-sabores{
+    min-width: 220px;
+    min-height: 320px;
+     width: 250px;
+    height: 350px;
+margin: 20px;
+box-shadow: 4px 4px 6px 6px rgba(128, 128, 128, 0.658);
+}
+.caixa-sabores #img {
+    width: 100%;
+    height: 200px; 
+}
+.caixa-sabores #img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.caixa-sabores #descrição{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+}
+.caixa-sabores #descrição {
+    font-size: 15px;
+}
+
+@media ( max-width: 450px  ) {
+    .Nossos-Sabores {
+        width: 100vw;
+        height: 60vh;
+    }
+    .Sabores-sorvete{
+        width: 100vw;
+        height:100%;   
+    }
+    .Sabores-sorvete h1{
+        font-size: 25px;
+    }
+  }
+  @media ( min-width: 451px   ) and ( max-width: 768px  ) {
+    .Nossos-Sabores {
+        width: 100vw;
+        height: 80vh;
+    }
+    .Sabores-sorvete{
+        width: 100vw;
+        height:100%;   
+    }
+    .Sabores-sorvete h1{
+        font-size: 35px;
+    }
+ 
+  }

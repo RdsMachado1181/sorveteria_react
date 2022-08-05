@@ -1,0 +1,17 @@
+*{
+  padding: 0px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 60vh; 
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; 
+ 
+}
+ 

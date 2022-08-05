@@ -1,0 +1,39 @@
+.secao-topo{
+    background-color: bisque;
+    min-width: 20vw;
+ }
+.Topo .secao-topo  {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.Topo .secao-topo img {
+width: 80px;
+height: 60px;
+}
+.Topo .secao-topo a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Topo .secao-topo a:hover{
+   background-color: #afa75e;
+   box-shadow: 2px 2px rgb(119, 128, 87);
+}
+@media (max-width:350px) {
+    .Topo .secao-topo {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+     }
+     .Topo .secao-topo nav  {
+        border-top :  3px  solid #aeb3b3  ;
+     padding: 10px 0px;
+     width: 100%;
+        text-align: center; 
+     }
+}
